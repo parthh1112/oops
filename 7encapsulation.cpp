@@ -7,8 +7,8 @@ public:
     string user_id;
     string name;
     string address;
-    string phone_no;
     string email;
+    string phone_no;
     void setPassword(string password){ this -> password = password;}
     // string getPassword(){ return this -> password;}
 private:
