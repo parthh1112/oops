@@ -32,8 +32,9 @@ int main(){
     cout<<car::sheat<<endl;
 
 
+
     car audi;
-    audi.sheat = 10;
+    // audi.sheat = 10;
     cout<<audi.sheat<<endl;
 
     cout<<car::sheat<<endl;

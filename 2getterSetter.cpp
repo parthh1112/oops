@@ -2,9 +2,9 @@
 using namespace std;
 class hero{
     private:
-    // int health;
     string name;
-    // char level;
+    int health;
+    char level;
     public:
     // void sethealth(int s){
     //     health = s;
@@ -18,18 +18,15 @@ class hero{
     // char getlevel(){
     //     return level;
     // }
-
 };
 int main(){
     hero h1;
     // h1.sethealth(89);
     // h1.setlevel('A');
     cout<<sizeof(h1)<<endl;
-    string a;
+    int a;
     cout<<sizeof(a)<<endl;
     // cout<<h1.gethealth()<<endl;
-    // cout<<h1.getlevel()<<endl;
-    
-    
+    // cout<<h1.getlevel()<<endl;   
 return 0;
 }

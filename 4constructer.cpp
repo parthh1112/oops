@@ -19,15 +19,15 @@ class hero{
     }
 };
 int main(){
-    hero h;
+    // hero h;
     hero h1(90,'B');
     // cout<<&h<<endl;
     // cout<<&h1<<endl;
-    h.level = 'A';
-    h.power = 80;
+    // h.level = 'A';
+    // h.power = 80;
     // cout<<h.level<<endl;
     // cout<<h.power<<endl;
-    cout<<endl;
+    // cout<<endl;
     // cout<<h1.level<<endl;
     // cout<<h1.power<<endl;
 
